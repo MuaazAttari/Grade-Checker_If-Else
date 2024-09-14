@@ -1,4 +1,4 @@
-let grade = +prompt("Please enter your grade");
+let grade = +prompt("Please enter your percentage");
 
 if (grade < 0 || grade > 100) {
   console.log("Please enter a number between 0 and 100");
